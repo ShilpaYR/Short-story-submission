@@ -1,5 +1,5 @@
-(https://github.com/user-attachments/files/35315806/README.md)
-# Short-story-submission# Test-Time Scaling in Reasoning LLMs — CMPE 297 Short Story
+(https://github.com/user-attachments/files/35315884/README.2.md)
+# Test-Time Scaling in Reasoning LLMs — CMPE 297 Short Story
 
 **Student:** Shilpa Yelkur Ramakrishnaiah · San José State University · CMPE 297, Fall 2026
 
@@ -107,4 +107,20 @@ Regenerate the figures with `python figures/make_figures.py figures`. All number
 
 ## References
 
-See [`references.md`](references.md). The main paper is Hariri, M., et al. (2026), *Test-Time Scaling in Reasoning LLMs: Inference Regimes, Evaluation, and Reproducibility*, [arXiv:2608.04001](https://arxiv.org/abs/2608.04001).
+1. **Main paper** — Hariri, M., Chen, W., Shahini, N., et al. (2026). *Test-Time Scaling in Reasoning LLMs: Inference Regimes, Evaluation, and Reproducibility.* [arXiv:2608.04001](https://arxiv.org/abs/2608.04001)
+2. Zhang, Q., et al. (2025). *A Survey on Test-Time Scaling in Large Language Models: What, How, Where, and How Well?* [arXiv:2503.24235](https://arxiv.org/abs/2503.24235)
+3. Muennighoff, N., et al. (2025). *s1: Simple test-time scaling.* [arXiv:2501.19393](https://arxiv.org/abs/2501.19393)
+4. Wang, X., et al. (2023). *Self-Consistency Improves Chain of Thought Reasoning in Language Models.* ICLR 2023. [arXiv:2203.11171](https://arxiv.org/abs/2203.11171)
+5. Snell, C., Lee, J., Xu, K., Kumar, A. (2024). *Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters.* [arXiv:2408.03314](https://arxiv.org/abs/2408.03314)
+6. Yao, S., et al. (2023). *Tree of Thoughts: Deliberate Problem Solving with Large Language Models.* [arXiv:2305.10601](https://arxiv.org/abs/2305.10601)
+7. Hao, S., et al. (2023). *Reasoning with Language Model is Planning with World Model (RAP).* [arXiv:2305.14992](https://arxiv.org/abs/2305.14992)
+8. Lightman, H., et al. (2023). *Let's Verify Step by Step.* [arXiv:2305.20050](https://arxiv.org/abs/2305.20050)
+9. Fu, Y., Wang, X., Tian, Y., Zhao, J. (2025). *Deep Think with Confidence (DeepConf).* ICLR 2026. [arXiv:2508.15260](https://arxiv.org/abs/2508.15260)
+10. Aggarwal, P., et al. (2023). *Let's Sample Step by Step: Adaptive-Consistency for Efficient Reasoning.* [arXiv:2305.11860](https://arxiv.org/abs/2305.11860)
+11. Li, Y., et al. (2024). *Escape Sky-high Cost: Early-stopping Self-Consistency for Multi-step Reasoning.* ICLR 2024. [arXiv:2401.10480](https://arxiv.org/abs/2401.10480)
+12. Liu, J., et al. (2025). *Are Your LLMs Capable of Stable Reasoning? (G-Pass@k).* Findings of ACL 2025. [arXiv:2412.13147](https://arxiv.org/abs/2412.13147)
+13. Balunović, M., Dekoninck, J., Petrov, I., Jovanović, N., Vechev, M. (2025). *MathArena: Evaluating LLMs on Uncontaminated Math Competitions.* NeurIPS 2025 D&B. [arXiv:2505.23281](https://arxiv.org/abs/2505.23281)
+14. M-A-P Team (2025). *SuperGPQA: Scaling LLM Evaluation across 285 Graduate Disciplines.* [arXiv:2502.14739](https://arxiv.org/abs/2502.14739)
+15. DeepSeek-AI (2025). *DeepSeek-R1.* [arXiv:2501.12948](https://arxiv.org/abs/2501.12948)
+16. OpenAI (2025). *gpt-oss-120b & gpt-oss-20b Model Card.* [arXiv:2508.10925](https://arxiv.org/abs/2508.10925)
+17. Qwen Team (2025). *Qwen3 Technical Report.* [arXiv:2505.09388](https://arxiv.org/abs/2505.09388)
