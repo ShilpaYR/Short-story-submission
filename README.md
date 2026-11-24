@@ -1,5 +1,3 @@
-[README (3).md](https://github.com/user-attachments/files/35316175/README.3.md)
-
 # Test-Time Scaling in Reasoning LLMs — CMPE 297 Short Story
 
 **Student:** Shilpa Yelkur Ramakrishnaiah · San José State University · CMPE 297, Fall 2026
@@ -33,7 +31,7 @@ It fits the course's focus on LLM development, evaluation and LLMOps.
 
 Every method is modeled as *budgeted inference over the model's prefix tree*. The prompt is the root, partial reasoning traces are nodes, and finished responses are leaves. The decoding policy decides which leaves get sampled. Every token, verifier call and controller step costs part of a budget **B**. The quantity to report is answer quality as a function of B.
 
-![Three regimes of test-time scaling](fig1_taxonomy.png)
+![Three regimes of test-time scaling](fig1_taxonomy%20(1).png)
 
 ## Taxonomy and key techniques
 
@@ -67,15 +65,15 @@ Uncertainty comes from a prompt bootstrap that recomputes the reducer on each re
 
 **Finding ≠ picking.** On AIME/HMMT/BrUMO (20 configurations × 80 attempts), median Pass@k rises from 56.49% (k=1) to 82.08% (k=80). The median share solved in *all* 80 attempts is only 15%.
 
-![Discovery vs selection](fig2_discovery_vs_selection.png)
+![Discovery vs selection](fig2_discovery_vs_selection%20(1).png)
 
 **The selection gap.** On 186 MathArena problems, reference-free selection trails Pass@80 by 8–16 points. A reference-based verifier reaches ROC AUC 0.983 against rule-based grading, while a reference-free pointwise judge reaches 0.871.
 
-![Selection gap](fig3_selection_gap.png)
+![Selection gap](fig3_selection_gap%20(1).png)
 
 **Discovery is not reliability.** On SuperGPQA (3,600 questions, 72 fields), gpt-oss-20b at high effort reaches Pass@80 81.94%, mean accuracy 45.03% and pass^80 only 9.47%. Field accuracy ranges from 21.33% (Aquaculture) to 76.78% (Mathematics).
 
-![Discovery vs stability](fig4_discovery_vs_stability.png)
+![Discovery vs stability](fig4_discovery_vs_stability%20(1).png)
 
 Rankings are cheap to estimate: k=1 rankings already agree with the 80-sample ranking at Spearman 0.967.
 
