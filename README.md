@@ -11,7 +11,6 @@ by Mohsen Hariri, Weicong Chen, Nahal Shahini, et al. (Case Western Reserve Univ
 | ✍️ Medium article | https://medium.com/@shilpa.yelkurramakrishnaiah/more-thinking-fewer-guarantees-how-to-read-test-time-scaling-claims-80ab5f85d2a7 |
 | 💻 GitHub repo | https://github.com/ShilpaYR/Short-story-submission |
 | 📊 Slides (PDF) | [`TTS_short_story.pdf`](TTS_short_story.pdf) |
-| 📊 Slides (PowerPoint) | [`TTS_short_story.pptx`](TTS_short_story.pptx) |
 | 🎥 Video walkthrough (YouTube) | https://www.youtube.com/watch?v=EL4JvS3GcBs |
 
 ---
@@ -88,8 +87,8 @@ Rankings are cheap to estimate: k=1 rankings already agree with the 80-sample ra
 | File | What it is |
 | --- | --- |
 | `README.md` | This summary, with all links and references |
-| `TTS_short_story.pdf` / `TTS_short_story.pptx` | The 15-slide deck |
-| `fig1_taxonomy.png` … `fig4_discovery_vs_stability.png` | Figures used above and in the Medium article |
+| `TTS_short_story.pdf` | The 15-slide deck |
+| `fig1_taxonomy (1).png` … `fig4_discovery_vs_stability (1).png` | Figures used above and in the Medium article |
 
 All numbers in the figures come from Hariri et al. (2026), Section 4.
 
